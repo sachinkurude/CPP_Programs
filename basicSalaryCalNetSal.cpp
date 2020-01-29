@@ -17,8 +17,8 @@ int main()
 	bonus=basicSal*0.20;
 	netSal=bonus+basicSal;
 
-	cout<<"Basic Salary: "<<basicSal<<endl;
-	cout<<"Bonus on Basic Salary: "<<bonus<<endl;
-	cout<<"Net Salary: "<<netSal<<endl;
+	cout<<"Basic Salary: "<<basicSal<<" Rs"<<endl;
+	cout<<"Bonus on Basic Salary: "<<bonus<<" Rs"<<endl;
+	cout<<"Net Salary: "<<netSal<<" Rs"<<endl;
 	return 0;
 }
