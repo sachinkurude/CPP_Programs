@@ -1,10 +1,10 @@
 CXXFLAGS =	-O2 -g -Wall -fmessage-length=0
 
-OBJS =		Test_Program.o
+OBJS =		subOfTwoNumbers.o
 
 LIBS =
 
-TARGET =	Test_Program.exe
+TARGET =	subOfTwoNumbers.exe
 
 $(TARGET):	$(OBJS)
 	$(CXX) -o $(TARGET) $(OBJS) $(LIBS)
