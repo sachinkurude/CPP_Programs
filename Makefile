@@ -1,10 +1,10 @@
 CXXFLAGS =	-O2 -g -Wall -fmessage-length=0
 
-OBJS =		subOfTwoNumbers.o
+OBJS =		basicSalaryCalNetSal.o
 
 LIBS =
 
-TARGET =	subOfTwoNumbers.exe
+TARGET =	basicSalaryCalNetSal.exe
 
 $(TARGET):	$(OBJS)
 	$(CXX) -o $(TARGET) $(OBJS) $(LIBS)
