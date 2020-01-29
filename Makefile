@@ -1,10 +1,10 @@
 CXXFLAGS =	-O2 -g -Wall -fmessage-length=0
 
-OBJS =		basicSalaryCalNetSal.o
+OBJS =		HelloInOpps.o
 
 LIBS =
 
-TARGET =	basicSalaryCalNetSal.exe
+TARGET =	HelloInOpps.exe
 
 $(TARGET):	$(OBJS)
 	$(CXX) -o $(TARGET) $(OBJS) $(LIBS)
