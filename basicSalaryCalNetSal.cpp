@@ -8,6 +8,7 @@
 using namespace std;
 int main()
 {
+	//To Calculate basic salary of employee
 	int basicSal;
 	float netSal,bonus;
 	cout<<"Enter Basic Salary Of Employee:"<<endl;
