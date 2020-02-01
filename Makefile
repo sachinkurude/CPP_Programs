@@ -1,10 +1,10 @@
 CXXFLAGS =	-O2 -g -Wall -fmessage-length=0
 
-OBJS =		HelloInOpps.o
+OBJS =		Test_Program.o
 
 LIBS =
 
-TARGET =	HelloInOpps.exe
+TARGET =	Test_Program.exe
 
 $(TARGET):	$(OBJS)
 	$(CXX) -o $(TARGET) $(OBJS) $(LIBS)
