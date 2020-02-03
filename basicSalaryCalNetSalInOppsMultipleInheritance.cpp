@@ -9,7 +9,7 @@ using namespace std;
 class EmpAccept
 {
 public:
-	int bSal;
+	float bSal;
 	void accept()
 	{
 		cout<<"Accept Basic Salary:"<<endl;
@@ -20,7 +20,7 @@ public:
 class EmpCal
 {
 	public:
-	int bonus,netSal;
+	float bonus,netSal;
 
 };
 class EmpResult:public EmpCal,public EmpAccept

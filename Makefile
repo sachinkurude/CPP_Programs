@@ -1,10 +1,10 @@
 CXXFLAGS =	-O2 -g -Wall -fmessage-length=0
 
-OBJS =		nameSpace.o
+OBJS =		switchCase.o
 
 LIBS =
 
-TARGET =	nameSpace.exe
+TARGET =	switchCase.exe
 
 $(TARGET):	$(OBJS)
 	$(CXX) -o $(TARGET) $(OBJS) $(LIBS)
