@@ -1,10 +1,10 @@
 CXXFLAGS =	-O2 -g -Wall -fmessage-length=0
 
-OBJS =		switchCase.o
+OBJS =		Palindrome.o
 
 LIBS =
 
-TARGET =	switchCase.exe
+TARGET =	Palindrome.exe
 
 $(TARGET):	$(OBJS)
 	$(CXX) -o $(TARGET) $(OBJS) $(LIBS)
